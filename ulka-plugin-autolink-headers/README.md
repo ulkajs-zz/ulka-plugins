@@ -68,7 +68,3 @@ You can use the class name to show icon on hover only.
   visibility: visible;
 }
 ```
-
-        options: {
-
-        }
