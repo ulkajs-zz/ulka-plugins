@@ -1,0 +1,30 @@
+{
+  "name": "ulka-plugin-sitemap",
+  "version": "1.1.0",
+  "description": "Plugin for ulka static site generator to autolink markdown headers",
+  "main": "./plugin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulkajs/ulka-plugins.git"
+  },
+  "author": "Roshan Acharya",
+  "license": "MIT",
+  "scripts": {
+    "develop": "ulka develop",
+    "serve": "ulka serve",
+    "build": "ulka build"
+  },
+  "bugs": {
+    "url": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-autolink-headers/issues"
+  },
+  "peerDependencies": {
+    "ulka": "^0.6.2"
+  },
+  "homepage": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-autolink-headers#readme",
+  "devDependencies": {
+    "ulka": "^0.6.2"
+  },
+  "dependencies": {
+    "slugify": "^1.4.5"
+  }
+}

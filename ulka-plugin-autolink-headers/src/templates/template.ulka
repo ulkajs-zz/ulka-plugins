@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>{% values.frontMatter.title %}</title>
+        <style>
+            .ulka-heading {
+                position: relative;
+                margin-left: -20px;
+                padding-left: 20px;
+            }
+            .ulka-heading-anchor {
+                visibility: hidden;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+            }
+            .ulka-heading:hover .ulka-heading-anchor{
+                visibility: visible;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="margin: auto; width: 700px;">
+            {% data %}
+        </div>
+    </body>
+</html>

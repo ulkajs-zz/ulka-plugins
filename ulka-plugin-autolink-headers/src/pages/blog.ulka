@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Blog</title>
+    </head>
+    <body>
+        {% 
+            contents.blog.map(content => `
+                <a>${content.values.frontMatter.title}</a>
+            `)
+        %}
+    </body>
+</html>
