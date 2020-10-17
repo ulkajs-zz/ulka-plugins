@@ -26,7 +26,7 @@ module.exports = {
 After the setup, readingTime key will be available in fields.
 
 ```js
-// fields.readingTime
+// values.fields.readingTime
 {
     text: '1 min read',
     minutes: 1,
@@ -46,7 +46,7 @@ module.exports = {
     plugins: [
         ...
         {
-            resolve: "ulka-plugin-sitemap",
+            resolve: "ulka-plugin-reading-time",
             options: {
                 // options accepted by reading-time (https://github.com/ngryman/reading-time)
             }
