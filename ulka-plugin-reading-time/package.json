@@ -1,0 +1,30 @@
+{
+  "name": "ulka-plugin-reading-time",
+  "version": "1.1.1",
+  "description": "Plugin for ulka static site genrator to calculate reading time of markdown data.",
+  "main": "./plugin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulkajs/ulka-plugins.git"
+  },
+  "author": "Roshan Acharya",
+  "license": "MIT",
+  "scripts": {
+    "develop": "ulka develop",
+    "serve": "ulka serve",
+    "build": "ulka build"
+  },
+  "dependencies": {
+    "reading-time": "^1.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-reading-time/issues"
+  },
+  "peerDependencies": {
+    "ulka": "^0.6.1"
+  },
+  "homepage": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-reading-time#readme",
+  "devDependencies": {
+    "ulka": "^0.6.1"
+  }
+}

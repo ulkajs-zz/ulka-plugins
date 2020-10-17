@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>{% values.frontMatter.title %}</title>
+    </head>
+    <body>
+        {% data %}
+
+        Reading-time: {% values.fields.readingTime.text %}
+    </body>
+</html>

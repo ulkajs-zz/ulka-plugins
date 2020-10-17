@@ -1,11 +1,11 @@
 {
   "name": "ulka-plugin-sitemap",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Plugin for ulka to generate sitemap from generated html files",
   "main": "./plugin/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acharyaroshanji/ulka-plugin-sitemap.git"
+    "url": "git+https://github.com/ulkajs/ulka-plugins.git"
   },
   "author": "Roshan Acharya",
   "license": "MIT",
@@ -15,12 +15,12 @@
     "build": "ulka build"
   },
   "bugs": {
-    "url": "https://github.com/acharyaroshanji/ulka-plugin-sitemap/issues"
+    "url": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-sitemap/issues"
   },
   "peerDependencies": {
     "ulka": ">= 0.6.0"
   },
-  "homepage": "https://github.com/acharyaroshanji/ulka-plugin-sitemap#readme",
+  "homepage": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-sitemap#readme",
   "devDependencies": {
     "ulka": "^0.6.1"
   }
