@@ -1,6 +1,6 @@
 {
   "name": "ulka-plugin-sitemap",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Plugin for ulka to generate sitemap from generated html files",
   "main": "./plugin/index.js",
   "repository": {
