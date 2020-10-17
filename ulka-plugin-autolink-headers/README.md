@@ -49,7 +49,7 @@ module.exports = {
 }
 ```
 
-You can use the class name to show icon on hover only.
+You can use the className to do some styling to show icon on hover only.
 
 ```css
 .ulka-heading {
