@@ -1,0 +1,32 @@
+{
+  "name": "ulka-plugin-minifier",
+  "version": "1.1.1",
+  "description": "Plugin for ulka static site genrator to minify your static files.",
+  "main": "./plugin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulkajs/ulka-plugins.git"
+  },
+  "author": "Roshan Acharya",
+  "license": "MIT",
+  "scripts": {
+    "develop": "ulka develop",
+    "serve": "ulka serve",
+    "build": "ulka build"
+  },
+  "bugs": {
+    "url": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-minifier/issues"
+  },
+  "peerDependencies": {
+    "ulka": "^0.6.2"
+  },
+  "homepage": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-minifier#readme",
+  "devDependencies": {
+    "ulka": "^0.6.2"
+  },
+  "dependencies": {
+    "clean-css": "^4.2.3",
+    "html-minifier-terser": "^5.1.1",
+    "terser": "^4.6.3"
+  }
+}
