@@ -63,7 +63,7 @@ function allFiles(dirPath, arrayOfFiles = []) {
       if (fs.statSync(pathTo).isDirectory()) {
         arrayOfFiles = allFiles(pathTo, arrayOfFiles)
       } else {
-        arrayOfFiles.push(pathTo)
+        if (path.parse(file).ext === '.ejs') arrayOfFiles.push(pathTo)
       }
     })
 
