@@ -4,7 +4,7 @@ const url = require('url')
 const path = require('path')
 
 exports.beforeBuild = ({ info, pagesArray }, { ejsOptions = {} } = {}) => {
-  const allEjsFiles = allFiles(info.configs.pagesPath, '.ejs')
+  const allEjsFiles = allFiles(info.configs.pagesPath)
 
   for (const file of allEjsFiles) {
     const raw = fs.readFileSync(file, 'utf-8')
@@ -22,7 +22,7 @@ exports.beforeBuild = ({ info, pagesArray }, { ejsOptions = {} } = {}) => {
     }
 
     ejsOptions.filename = file
-    ejsOptions.context = context
+    ejsOptions.context = pages
 
     info.renderer['.ejs'] = (raw, context) => {
       return ejs.render(raw, context, ejsOptions)
