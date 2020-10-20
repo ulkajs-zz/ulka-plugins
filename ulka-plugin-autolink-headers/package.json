@@ -1,6 +1,6 @@
 {
   "name": "ulka-plugin-autolink-headers",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Plugin for ulka static site generator to autolink markdown headers",
   "main": "./plugin/index.js",
   "repository": {
@@ -18,7 +18,7 @@
     "url": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-autolink-headers/issues"
   },
   "peerDependencies": {
-    "ulka": ">= 0.6.2"
+    "ulka": ">= 0.6.3"
   },
   "homepage": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-autolink-headers#readme",
   "devDependencies": {
