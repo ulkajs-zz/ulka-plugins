@@ -18,7 +18,7 @@
     "url": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-autolink-headers/issues"
   },
   "peerDependencies": {
-    "ulka": "^0.6.2"
+    "ulka": ">= 0.6.2"
   },
   "homepage": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-plugin-autolink-headers#readme",
   "devDependencies": {

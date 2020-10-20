@@ -1,6 +1,6 @@
 {
   "name": "ulka-source-ejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin for ulka to generate html from ejs files",
   "main": "./plugin/index.js",
   "repository": {
@@ -18,7 +18,7 @@
     "url": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-source-ejs/issues"
   },
   "peerDependencies": {
-    "ulka": "^0.6.2"
+    "ulka": ">= 0.6.4"
   },
   "homepage": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-source-ejs#readme",
   "devDependencies": {
