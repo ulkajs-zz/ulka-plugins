@@ -1,0 +1,30 @@
+{
+  "name": "ulka-source-ejs",
+  "version": "1.0.0",
+  "description": "Plugin for ulka to generate html from ejs files",
+  "main": "./plugin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulkajs/ulka-plugins.git"
+  },
+  "author": "Roshan Acharya",
+  "license": "MIT",
+  "scripts": {
+    "develop": "ulka develop",
+    "serve": "ulka serve",
+    "build": "ulka build"
+  },
+  "bugs": {
+    "url": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-source-ejs/issues"
+  },
+  "peerDependencies": {
+    "ulka": "^0.6.2"
+  },
+  "homepage": "https://github.com/ulkajs/ulka-plugins/tree/main/ulka-source-ejs#readme",
+  "devDependencies": {
+    "ulka": "^0.6.4-rc.3"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5"
+  }
+}
