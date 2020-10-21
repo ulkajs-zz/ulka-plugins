@@ -28,6 +28,8 @@ exports.beforeBuild = ({ info, pagesArray }, { ejsOptions = {} } = {}) => {
       return ejs.render(raw, context, ejsOptions)
     }
 
+    info.ignoreExtensions.push('.ejs')
+
     pagesArray.push(pages)
   }
 }
