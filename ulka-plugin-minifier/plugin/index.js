@@ -38,6 +38,7 @@ exports.afterBuild = ({ info }, { html = {}, css = {}, js = {} } = {}) => {
         minifyCSS: true,
         minifyJS: true,
         collapseWhitespace: true,
+        conservativeCollapse: true,
         collapseInlineTagWhitespace: true,
         ...html,
       })
