@@ -33,7 +33,7 @@ exports.remarkablePlugin = (
       let anchor = ''
       if (icon) anchor = `<a class="${anchorClass}" href="#${slug}">${icon}</a>`
 
-      return `<h${hLevel} style="" class="${headingClass}" id="${slug}">${anchor} `
+      return `<h${hLevel} class="${headingClass}" id="${slug}">${anchor} `
     }
   }
 }
